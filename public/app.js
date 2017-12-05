@@ -50,7 +50,6 @@ berlinButton.addEventListener('click', mainMap.berlinAttractions.bind(mainMap))
 
 	// var bounceButton = document.getElementById('button-bounce-markers');
 	// bounceButton.addEventListener('click', mainMap.bounceMarkers.bind(mainMap))
-
 }
 
 window.addEventListener('load', initialise);
