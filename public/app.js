@@ -14,7 +14,7 @@ var initialise = function(){
 	mainMap.addClickEvent()
 
 // adds infoWindow1
-var infoWindowString1 = "<h1>museum_placeholder</h1>"
+var infoWindowString1 = '<h3>Pergamon Museum</h3><a href="http://www.smb.museum/en/museums-institutions/pergamonmuseum/home.html">Museum website</a>'
 var infoWindow1 = new google.maps.InfoWindow({
 	content: infoWindowString1
 })
@@ -23,7 +23,7 @@ museumMarker.addListener('click', function(){
 })
 
 // adds infoWindowString2
-var infoWindowString2 = "<h1>tower_placeholder</h1>"
+var infoWindowString2 = '<h3>Berliner Fernsehturm</h3><a href="https://tv-turm.de/en/homepage/">TV Tower website</a>'
 var infoWindow2 = new google.maps.InfoWindow({
 	content: infoWindowString2
 })
@@ -32,7 +32,7 @@ towerMarker.addListener('click', function(){
 })
 
 // adds infoWindowString3
-var infoWindowString3 = "<h1>cathedral_placeholder</h1>"
+var infoWindowString3 = '<h3>Berlin Cathedral</h3><a href="http://www.berlinerdom.de/index.php?lang=en">Cathedral website</a>'
 var infoWindow3 = new google.maps.InfoWindow({
 	content: infoWindowString3
 })
